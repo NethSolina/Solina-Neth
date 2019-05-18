@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        background-color: rgb(92, 225, 230);
+    }
+
+    .wrapper {
+        width: 98%;
+        height: 100vh;
+        display: flex;
+    }
+
+    /* Left container with Portfolio word*/
+
+    div .container {
+        background-color: rgb(255, 164, 107);
+        width: 40.5vw;
+        height: 100vh;
+        position: absolute;
+    }
+
+    div h1 {
+        color: white;
+        position: absolute;
+        font-size: 4vw;
+        top: 36%;
+        left: 10%;
+        text-transform: uppercase;
+        letter-spacing: .50vw;
+    }
+
+    .bar {
+        background-color: rgb(92, 225, 230);
+        height: 3vh;
+        width: 85%;
+        position: absolute;
+        top: 53%;
+        left: 10%;
+    }
+
+    .swirls {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 10vw;
+        height: 20vh;
+        background: url(Images/swirls.JPG);
+        background-position: center center;
+        background-size: cover;
+
+    }
+
+    div .portfolio-container {
+        background-color: white;
+        width: 100vw;
+        margin-left: 41%;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .box {
+        width: 10vw;
+        height: 20vh;
+        background-color: red;
+
+    }
+
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .rectangle {
+        width: 25vw;
+    }
+
+    .box1 {
+        background: url(Images/eating.jpg);
+        background-size: cover;
+    }
+
+    .box2 {
+        background: url(Images/friends.jpg);
+        background-size: cover;
+    }
+
+    .box3 {
+        background: url(Images/plate.jpg);
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div>
+                <h1>Portfolio</h1>
+            </div>
+            <div class="bar"></div>
+            <div class="swirls"></div>
+        </div>
+
+        <div class="portfolio-container">
+            <div class="box-container">
+                <div class="box box1"></div>
+                <div class="box box2"></div>
+                <div class="box box3"></div>
+            </div>
+            <div class="box-container">
+                <div class="box rectangle">hello</div>
+                <div class="box rectangle">hello</div>
+                <div class="box rectangle">hello</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

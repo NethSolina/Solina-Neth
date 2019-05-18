@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Duru+Sans" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        margin: 0px;
+    }
+
+    /* Laptop background image*/
+
+    .img-container {
+        background-image: url(Images/download.jpg);
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .img-overlay {
+        position: absolute;
+        background-color: rgb(92, 225, 230, 0.7);
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -5;
+    }
+
+    /* Name and title.*/
+    #box-container {
+        margin-top: 16%;
+        margin-left: 5%;
+        color: white;
+        font-family: monserrat;
+        text-align: justify;
+        height: 300px;
+        width: 1000px;
+        padding: 10px;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 7vw;
+        text-transform: uppercase;
+    }
+
+    .title h2 {
+        padding-left: 10px;
+        font-size: 3vw;
+        background-color: rgb(255, 164, 107);
+    }
+
+    .title {
+        width: 60vw;
+    }
+
+    /* View my work*/
+
+    .rectangle {
+        /*
+        background: url("Images/rect.jpg");
+        background-size: cover; */
+        background-color: aqua;
+        background-position: center center;
+        width: 40vw;
+        height: 25vh;
+        margin-left: 4%;
+        text-align: center;
+        position: fixed; 
+    }
+
+    .view h3 {
+        position: relative;
+        margin-top: 5%;
+        margin-left: 6%;
+        font-size: 3vw;
+        color: white;
+        letter-spacing: 20px;
+        text-transform: uppercase;
+        font-family: 'Duru Sans', sans-serif;
+    }
+
+    /* Footer*/
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 20vh;
+        background-color: black;
+        color: white;
+        z-index: -1;
+    }
+</style>
+
+<body>
+    <div class="img-container">
+        <div class="img-overlay">
+
+            <div id="box-container">
+
+                <div class="name">
+                    <h1><strong>Solina Neth</strong></h1>
+                </div>
+                <div class="title">
+                    <h2>Full Stack Web Developer</h2>
+                </div>
+            </div>
+
+            <div class="footer"></div>
+
+            <div class="rectangle">
+                <div class="view">
+                    <h3>View My <br><br> Work</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
